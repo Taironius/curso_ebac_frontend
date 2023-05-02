@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgba(62, 64, 25, 0.758);
+}
+
+header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+form, ul {
+    text-align: center;
+    margin-top: 10px;
+}
+
+form input {
+    width: 300px;
+}
+
+form button {
+    cursor: pointer;
+}
+
+ul li {
+    cursor: pointer;    
+}
+
+.riscado {
+    text-decoration: line-through;
+}
+
