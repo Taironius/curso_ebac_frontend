@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plugins JQuerry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário de Cadastro</h1>
+    </header>
+    <section>
+        <div class="container">
+            <form>
+                <label for="nome">Nome Completo</label>
+                <input required type="text">
+
+                <label for="email">E-mail</label>
+                <input required type="email">
+
+                <label for="telefone">Telefone</label>
+                <input id="telefone" required type="tel">
+
+                <label for="cpf">CPF</label>
+                <input id="cpf" required type="text">
+
+                <label for="endereco">Endereço Completo</label>
+                <input required type="text">
+
+                <label for="cep">CEP</label>
+                <input id="cep" required type="text">
+
+                <button type="submit">Cadastrar</button>
+            </form>            
+        </div>        
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
